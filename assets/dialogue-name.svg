@@ -153,8 +153,13 @@
   </g>
 
   <g class="prompt" fill="#c9adff">
-    <rect x="843" y="169" width="8" height="8" />
-    <rect x="851" y="177" width="8" height="8" />
-    <rect x="859" y="185" width="8" height="8" />
+    <rect x="837" y="158" width="7" height="7" />
+    <rect x="861" y="158" width="7" height="7" />
+    <rect x="829" y="174" width="7" height="7" />
+    <rect x="869" y="174" width="7" height="7" />
+    <rect x="837" y="182" width="7" height="7" />
+    <rect x="861" y="182" width="7" height="7" />
+    <rect x="845" y="190" width="7" height="7" />
+    <rect x="853" y="190" width="7" height="7" />
   </g>
 </svg>
