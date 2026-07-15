@@ -1,12 +1,6 @@
 <div data-importer="stats" align="left">
-  <img src="https://raw.githubusercontent.com/R4P4DHGFVDYG/R4P4DHGFVDYG/stats-output/stats.svg?hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=aura&locale=en&hide_border=false&order=1" height="150" alt="stats graph"  />
-  <img src="https://raw.githubusercontent.com/R4P4DHGFVDYG/R4P4DHGFVDYG/languages-output/languages.svg?locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=aura&hide_border=false&order=2" height="150" alt="languages graph"  />
-</div>
-
-###
-
-<div data-importer="image" align="center">
-  <img data-importer="image" height="200" src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHh4NHB6OTRmdjJybG5xY2J6Nm9lbnp5NmJhbXFnaTg5aXp0ajFoMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/UHAYP0FxJOmFBuOiC2/giphy.gif"  />
+  <img src="https://raw.githubusercontent.com/R4P4DHGFVDYG/R4P4DHGFVDYG/stats-output/stats.svg?hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=aura&locale=en&hide_border=false&order=1" height="15200" alt="stats graph"  />
+  <img src="https://raw.githubusercontent.com/R4P4DHGFVDYG/R4P4DHGFVDYG/languages-output/languages.svg?locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=aura&hide_border=false&order=2" height="200" alt="languages graph"  />
 </div>
 
 ###
