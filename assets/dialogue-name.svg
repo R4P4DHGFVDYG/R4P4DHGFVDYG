@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 220" role="img" aria-labelledby="title description">
+  <title id="title">G.R.C em uma caixa de diálogo 8-bit</title>
+  <desc id="description">O nome G.R.C aparece lentamente, letra por letra, como um diálogo de videogame.</desc>
+
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0712" />
+      <stop offset="1" stop-color="#171026" />
+    </linearGradient>
+
+    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#ffffff" opacity="0.025" />
+    </pattern>
+
+    <filter id="soft-glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <g id="pixel">
+      <rect width="10" height="10" rx="1" fill="currentColor" />
+    </g>
+
+    <clipPath id="message-clip">
+      <rect class="message-mask" x="190" y="158" width="520" height="24" />
+    </clipPath>
+  </defs>
+
+  <style>
+    .glyph {
+      color: #f4efff;
+      filter: url(#soft-glow);
+      opacity: 0;
+    }
+
+    .g1 { animation: show-g1 9s linear infinite; }
+    .g2 { animation: show-g2 9s linear infinite; }
+    .g3 { animation: show-g3 9s linear infinite; }
+    .g4 { animation: show-g4 9s linear infinite; }
+    .g5 { animation: show-g5 9s linear infinite; }
+
+    .message-mask {
+      transform-box: fill-box;
+      transform-origin: left center;
+      animation: type-message 9s steps(34, end) infinite;
+    }
+
+    .prompt {
+      animation: blink 0.8s steps(1, end) infinite;
+    }
+
+    @keyframes show-g1 {
+      0%, 6% { opacity: 0; }
+      7%, 88% { opacity: 1; }
+      94%, 100% { opacity: 0; }
+    }
+
+    @keyframes show-g2 {
+      0%, 13% { opacity: 0; }
+      14%, 88% { opacity: 1; }
+      94%, 100% { opacity: 0; }
+    }
+
+    @keyframes show-g3 {
+      0%, 20% { opacity: 0; }
+      21%, 88% { opacity: 1; }
+      94%, 100% { opacity: 0; }
+    }
+
+    @keyframes show-g4 {
+      0%, 27% { opacity: 0; }
+      28%, 88% { opacity: 1; }
+      94%, 100% { opacity: 0; }
+    }
+
+    @keyframes show-g5 {
+      0%, 34% { opacity: 0; }
+      35%, 88% { opacity: 1; }
+      94%, 100% { opacity: 0; }
+    }
+
+    @keyframes type-message {
+      0%, 40% { transform: scaleX(0); }
+      70%, 88% { transform: scaleX(1); }
+      94%, 100% { transform: scaleX(0); }
+    }
+
+    @keyframes blink {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .glyph, .prompt {
+        animation: none;
+        opacity: 1;
+      }
+
+      .message-mask {
+        animation: none;
+        transform: scaleX(1);
+      }
+    }
+  </style>
+
+  <rect width="900" height="220" rx="6" fill="#08050d" />
+  <rect x="8" y="8" width="884" height="204" rx="4" fill="url(#background)" stroke="#3f2868" stroke-width="4" />
+  <rect x="18" y="18" width="864" height="184" fill="none" stroke="#a775ff" stroke-width="2" />
+  <rect x="24" y="24" width="852" height="172" fill="url(#scanlines)" />
+
+  <rect x="42" y="35" width="158" height="24" fill="#201435" stroke="#8b5cf6" stroke-width="2" />
+  <text x="54" y="52" fill="#cbb2ff" font-family="Consolas, 'Courier New', monospace" font-size="13" font-weight="700" letter-spacing="2">PLAYER PROFILE</text>
+
+  <g class="glyph g1" transform="translate(325 66)">
+    <use href="#pixel" x="12" y="0" /><use href="#pixel" x="24" y="0" /><use href="#pixel" x="36" y="0" />
+    <use href="#pixel" x="0" y="12" /><use href="#pixel" x="0" y="24" />
+    <use href="#pixel" x="0" y="36" /><use href="#pixel" x="24" y="36" /><use href="#pixel" x="36" y="36" /><use href="#pixel" x="48" y="36" />
+    <use href="#pixel" x="0" y="48" /><use href="#pixel" x="48" y="48" />
+    <use href="#pixel" x="0" y="60" /><use href="#pixel" x="48" y="60" />
+    <use href="#pixel" x="12" y="72" /><use href="#pixel" x="24" y="72" /><use href="#pixel" x="36" y="72" />
+  </g>
+
+  <g class="glyph g2" transform="translate(397 66)">
+    <use href="#pixel" x="0" y="60" /><use href="#pixel" x="0" y="72" />
+  </g>
+
+  <g class="glyph g3" transform="translate(421 66)">
+    <use href="#pixel" x="0" y="0" /><use href="#pixel" x="12" y="0" /><use href="#pixel" x="24" y="0" /><use href="#pixel" x="36" y="0" />
+    <use href="#pixel" x="0" y="12" /><use href="#pixel" x="48" y="12" />
+    <use href="#pixel" x="0" y="24" /><use href="#pixel" x="48" y="24" />
+    <use href="#pixel" x="0" y="36" /><use href="#pixel" x="12" y="36" /><use href="#pixel" x="24" y="36" /><use href="#pixel" x="36" y="36" />
+    <use href="#pixel" x="0" y="48" /><use href="#pixel" x="24" y="48" />
+    <use href="#pixel" x="0" y="60" /><use href="#pixel" x="36" y="60" />
+    <use href="#pixel" x="0" y="72" /><use href="#pixel" x="48" y="72" />
+  </g>
+
+  <g class="glyph g4" transform="translate(493 66)">
+    <use href="#pixel" x="0" y="60" /><use href="#pixel" x="0" y="72" />
+  </g>
+
+  <g class="glyph g5" transform="translate(517 66)">
+    <use href="#pixel" x="12" y="0" /><use href="#pixel" x="24" y="0" /><use href="#pixel" x="36" y="0" /><use href="#pixel" x="48" y="0" />
+    <use href="#pixel" x="0" y="12" /><use href="#pixel" x="0" y="24" /><use href="#pixel" x="0" y="36" />
+    <use href="#pixel" x="0" y="48" /><use href="#pixel" x="0" y="60" />
+    <use href="#pixel" x="12" y="72" /><use href="#pixel" x="24" y="72" /><use href="#pixel" x="36" y="72" /><use href="#pixel" x="48" y="72" />
+  </g>
+
+  <g clip-path="url(#message-clip)">
+    <text x="450" y="177" fill="#bda3eb" font-family="Consolas, 'Courier New', monospace" font-size="16" letter-spacing="1" text-anchor="middle">AI + SOFTWARE ENGINEERING // READY TO BUILD</text>
+  </g>
+
+  <g class="prompt" fill="#c9adff">
+    <rect x="843" y="169" width="8" height="8" />
+    <rect x="851" y="177" width="8" height="8" />
+    <rect x="859" y="185" width="8" height="8" />
+  </g>
+</svg>
