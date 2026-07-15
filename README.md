@@ -1,6 +1,6 @@
 <div data-importer="stats" align="left">
-  <img src="https://raw.githubusercontent.com/R4P4DHGFVDYG/R4P4DHGFVDYG/stats-output/stats.svg?hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=aura&locale=en&hide_border=false&order=1" height="15200" alt="stats graph"  />
-  <img src="https://raw.githubusercontent.com/R4P4DHGFVDYG/R4P4DHGFVDYG/languages-output/languages.svg?locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=aura&hide_border=false&order=2" height="200" alt="languages graph"  />
+  <img src="https://raw.githubusercontent.com/R4P4DHGFVDYG/R4P4DHGFVDYG/stats-output/stats.svg?hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=aura&locale=en&hide_border=false&order=1" height="250" alt="stats graph"  />
+  <img src="https://raw.githubusercontent.com/R4P4DHGFVDYG/R4P4DHGFVDYG/languages-output/languages.svg?locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=aura&hide_border=false&order=2" height="250" alt="languages graph"  />
 </div>
 
 ###
@@ -9,15 +9,15 @@
 
 ###
 
-<h3 data-importer="text" align="left">ABOUT ME</h3>
+<h2 data-importer="text" align="left">ABOUT ME</h2>
 
 ###
 
-<h4 data-importer="text" align="left">AI and Software Engineering Student<br>Experience in C++<br>Web Development Experience</h4>
+<h3 data-importer="text" align="left">AI and Software Engineering Student<br>Experience in C++<br>Web Development Experience</h3>
 
 ###
 
-<h3 data-importer="text" align="left">TECHS</h3>
+<h2 data-importer="text" align="left">TECHS</h2>
 
 ###
 
@@ -39,7 +39,7 @@
 
 ###
 
-<h3 data-importer="text" align="left">SOCIAL MIDIA</h3>
+<h2 data-importer="text" align="left">SOCIAL MIDIA</h2>
 
 ###
 
