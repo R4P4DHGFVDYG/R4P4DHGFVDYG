@@ -14,7 +14,7 @@
 
 ## Sobre mim
 
-Transformo ideias e problemas práticos em software. Tenho experiência com **C++**, desenvolvimento web e aplicações desktop, com interesse especial em **Inteligência Artificial**, automação, OCR e ferramentas para jogos.
+Transformo ideias e problemas práticos em software. Tenho experiência com **C++**, desenvolvimento web e aplicações desktop, com interesse especial em **Inteligência Artificial**.
 
 - Estudando Inteligência Artificial e Engenharia de Software.
 - Criando aplicações que unem interface, automação e processamento de dados.
