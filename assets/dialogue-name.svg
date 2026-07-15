@@ -25,7 +25,7 @@
     </g>
 
     <clipPath id="message-clip">
-      <rect class="message-mask" x="190" y="158" width="520" height="24" />
+      <rect class="message-mask" x="310" y="158" width="280" height="24" />
     </clipPath>
   </defs>
 
@@ -45,7 +45,7 @@
     .message-mask {
       transform-box: fill-box;
       transform-origin: left center;
-      animation: type-message 9s steps(34, end) infinite;
+      animation: type-message 9s steps(25, end) infinite;
     }
 
     .prompt {
@@ -149,7 +149,7 @@
   </g>
 
   <g clip-path="url(#message-clip)">
-    <text x="450" y="177" fill="#bda3eb" font-family="Consolas, 'Courier New', monospace" font-size="16" letter-spacing="1" text-anchor="middle">AI + SOFTWARE ENGINEERING // READY TO BUILD</text>
+    <text x="450" y="177" fill="#bda3eb" font-family="Consolas, 'Courier New', monospace" font-size="16" letter-spacing="1" text-anchor="middle">AI + SOFTWARE ENGINEERING</text>
   </g>
 
   <g class="prompt" fill="#c9adff">
